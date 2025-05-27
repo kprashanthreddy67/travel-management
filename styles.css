@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('your-background-image.jpg'); /* Add your background image here */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.search-section {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  width: 200px;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+li {
+  background-color: white;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+}
